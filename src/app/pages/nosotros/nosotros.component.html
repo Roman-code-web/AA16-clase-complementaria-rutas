@@ -1,1 +1,10 @@
-<p>nosotros works!</p>
+<div class="container ">
+    <h2 class="text-center">Nosotros</h2>
+</div>
+<div class="container d-flex flex-wrap gap-5">
+    <div><a class="nav-link btn btn-primary py-3 px-5 text-light" routerLink="mision" routerLinkActive="bg-info" [routerLinkActiveOptions]="{exact:true}" >Mision</a></div>
+    <div><a class="nav-link btn btn-primary py-3 px-5 text-light" routerLink="vision" routerLinkActive="bg-info" [routerLinkActiveOptions]="{exact:true}" >Vision</a></div>
+</div>
+<div class="container">
+    <router-outlet></router-outlet>
+</div>
