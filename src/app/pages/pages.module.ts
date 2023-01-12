@@ -5,6 +5,7 @@ import { NosotrosComponent } from './nosotros/nosotros.component';
 import { ContactenosComponent } from './contactenos/contactenos.component';
 import { ComponentesModule } from '../componentes/componentes.module';
 import { RouterModule } from '@angular/router';
+import { NotFoundComponentComponent } from './not-found-component/not-found-component.component';
 
 
 
@@ -12,7 +13,8 @@ import { RouterModule } from '@angular/router';
   declarations: [
     HomeComponent,
     NosotrosComponent,
-    ContactenosComponent
+    ContactenosComponent,
+    NotFoundComponentComponent
   ],
   imports: [
     CommonModule,
