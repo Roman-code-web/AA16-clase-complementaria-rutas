@@ -1,0 +1,26 @@
+/* tituloform*/
+.titulo__color{
+    color: #FB2576;
+}
+/*btn*/
+.bg__btn{
+    background:#FB2576;
+    font-weight: 700;
+    color: #fff;
+    transition: 2s ease-out;;
+}
+.bg__btn:hover{
+    background: #FB2576;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/* inputs*/
+.input__border{
+    border: 1px solid  #FB2576;
+}
+.form-floating>label{
+    color: #FB2576;
+}
+.select__color{
+    color: #FB2576;
+}
